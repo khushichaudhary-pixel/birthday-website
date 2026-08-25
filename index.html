@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Makes the website look good on phones too -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy 20th Birthday ♡</title>
+
+    <!-- Google fonts - lightweight and pretty -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==========================================
+         FLOATING DECORATIONS
+         ========================================== -->
+
+    <div class="floating-hearts">
+        <span>♡</span>
+        <span>♡</span>
+        <span>✦</span>
+        <span>♡</span>
+        <span>✧</span>
+        <span>♡</span>
+    </div>
+
+
+    <!-- ==========================================
+         NAVIGATION
+         ========================================== -->
+
+    <nav class="navbar">
+
+        <!-- CHANGE THIS: Put your friend's name here -->
+        <div class="logo">for my rashuu ♡</div>
+
+        <div class="nav-links">
+            <button onclick="showPage(1)">20</button>
+            <button onclick="showPage(2)">Story</button>
+            <button onclick="showPage(3)">20 Things</button>
+            <button onclick="showPage(4)">Memories</button>
+            <button onclick="showPage(5)">Letter</button>
+            <button onclick="showPage(6)">Wish</button>
+            <button onclick="showPage(7)">♡</button>
+        </div>
+
+    </nav>
+
+
+    <!-- ==========================================
+         PAGE 1 — THE OPENING
+         ========================================== -->
+
+    <section class="page active" id="page1">
+
+        <!--
+            CHANGE THIS:
+            Replace images/main.jpg with your friend's main photo.
+        -->
+
+        <div class="hero-background"
+             style="background-image: url('rrk1.jpeg');">
+            </div>
+        
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="small-title">A little celebration for</p>
+
+            <!-- CHANGE THIS: Friend's name -->
+            <h1 class="name">Rashi Malhotra</h1>
+
+            <div class="big-number">20</div>
+
+            <p class="twenty-text">
+                twenty looks beautiful on you
+            </p>
+
+            <p class="tiny-text">
+                ✦ a little birthday world made just for you ✦
+            </p>
+
+            <button class="main-button" onclick="showPage(2)">
+                enter your little world ♡
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         PAGE 2 — HER STORY
+         ========================================== -->
+
+    <section class="page" id="page2">
+
+        <div class="page-container">
+
+            <div class="section-heading">
+                <p class="eyebrow">chapter one</p>
+
+                <h2>
+                    Our little story
+                </h2>
+
+                <p>
+                    Some people enter your life quietly...
+                    and somehow become one of your favourite parts of it.
+                </p>
+            </div>
+
+
+            <div class="timeline">
+
+                <!-- CHANGE THIS: Change dates and memories -->
+
+                <div class="timeline-item">
+                    <div class="timeline-number">01</div>
+
+                    <div class="timeline-content">
+                        <span>THE BEGINNING</span>
+
+                        <h3>The day we met</h3>
+
+                        <p>
+                            Won't lie but the first time I saw you ,
+                             I thought you were so smart (chantt actually).
+                
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="timeline-item">
+                    <div class="timeline-number">02</div>
+
+                    <div class="timeline-content">
+                        <span>THEN</span>
+
+                        <h3>When we became friends nah.. I bacame your massi"</h3>
+
+                        <p>
+                            maine humesha socha ki bhai why just why
+                             we are  so chaotic but abb its the best part of my sukhii
+                             life...(yours tooo)
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="timeline-item">
+                    <div class="timeline-number">03</div>
+
+                    <div class="timeline-content">
+                        <span>THE MEMORIES</span>
+
+                        <h3>All the chaos ♡</h3>
+
+                        <p>
+                           yrr abb tereko hona hoga mature ,,,yk you cant be unserious
+                           bhai 20 saal ki hogyiii abb nhi toh kabbb.... jokes aside bhaii
+                           20 saal ki hogyi....
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="timeline-item">
+                    <div class="timeline-number">04</div>
+
+                    <div class="timeline-content">
+                        <span>TODAY</span>
+
+                        <h3>And here you are...</h3>
+
+                        <p>
+                            Twenty years of being you.
+                            And hopefully many, many more memories to come.
+                             your massii babluuu alott....
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <button class="next-button" onclick="showPage(3)">
+                next chapter →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         PAGE 3 — 20 THINGS
+         ========================================== -->
+
+    <section class="page" id="page3">
+
+        <div class="page-container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">chapter two</p>
+
+                <h2>
+                    20 things about you
+                </h2>
+
+                <p>
+                    Because one reason clearly wasn't enough.
+                </p>
+
+            </div>
+
+
+            <div class="reasons-grid">
+
+                <!--
+                    CHANGE THESE 20 TEXTS
+                    These are intentionally generic.
+                -->
+
+                <div class="reason-card">
+                    <span>01</span>
+                    <p>Your smile can make any room feel happier.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>02</span>
+                    <p>You somehow make ordinary days memorable.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>03</span>
+                    <p>Your laugh is impossible not to love.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>04</span>
+                    <p>You always know when something is wrong.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>05</span>
+                    <p>You are effortlessly yourself.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>06</span>
+                    <p>You make people feel comfortable being themselves.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>07</span>
+                    <p>Your random thoughts are genuinely entertaining.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>08</span>
+                    <p>You care more than you let people know.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>09</span>
+                    <p>You make friendship feel easy.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>10</span>
+                    <p>You are one of those people worth keeping forever.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>11</span>
+                    <p>You turn boring moments into stories.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>12</span>
+                    <p>You have the cutest little habits.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>13</span>
+                    <p>You somehow understand without needing explanations.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>14</span>
+                    <p>You are stronger than you realise.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>15</span>
+                    <p>You deserve every beautiful thing coming your way.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>16</span>
+                    <p>You make people feel loved.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>17</span>
+                    <p>You are beautifully imperfect.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>18</span>
+                    <p>You make life a little more fun.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>19</span>
+                    <p>You are simply you — and that's enough.</p>
+                </div>
+
+                <div class="reason-card special-card">
+                    <span>20</span>
+                    <p>Because you're YOU. And that's my favourite thing. ♡</p>
+                </div>
+
+            </div>
+
+
+            <button class="next-button" onclick="showPage(4)">
+                show me the memories →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         PAGE 4 — PHOTO GALLERY
+         ========================================== -->
+
+    <section class="page" id="page4">
+
+        <div class="page-container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">chapter three</p>
+
+                <h2>
+                    Little moments
+                </h2>
+
+                <p>
+                    Proof that some of the best memories
+                    happen when we're not trying.
+                </p>
+
+            </div>
+
+
+            <div class="gallery">
+
+                <!-- CHANGE PHOTO FILENAMES + CAPTIONS -->
+
+                <div class="polaroid rotate-left">
+                    <img src="dono.jpeg" alt=" 1">
+                    <p>that one day ♡</p>
+                </div>
+
+                <div class="polaroid rotate-right">
+                    <img src="RK1.jpeg" alt="2">
+                    <p>us being us</p>
+                </div>
+
+                <div class="polaroid rotate-small-left">
+                    <img src="red.jpeg" alt=" 3">
+                    <p> you in red</p>
+                </div>
+
+                <div class="polaroid rotate-small-right">
+                    <img src="boat.jpeg" alt=" 4">
+                    <p> cute one ✦</p>
+                </div>
+
+                <div class="polaroid rotate-left">
+                    <img src="longgg.jpeg" alt="5">
+                    <p>one for the looks</p>
+                </div>
+
+                <div class="polaroid rotate-right">
+                    <img src="teeno.jpeg" alt="6">
+                    <p>forever favourite</p>
+                </div>
+
+            </div>
+
+
+            <button class="next-button" onclick="showPage(5)">
+                there's something I wrote for you →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         PAGE 5 — LETTER
+         ========================================== -->
+
+    <section class="page" id="page5">
+
+        <div class="page-container letter-page">
+
+            <div class="envelope-decoration">
+                ♡
+            </div>
+
+            <p class="eyebrow">chapter four</p>
+
+            <h2>
+                A letter for you
+            </h2>
+
+
+            <div class="letter">
+
+                <!--
+                    CHANGE THIS:
+                    Replace this entire letter with your own message.
+                -->
+
+                <p class="letter-greeting">
+                    Dear RASHI.......,
+                </p>
+
+                <p>
+                    So you're twenty now.
+                </p>
+
+                <p>
+                    Bhai ka birthday🎂🎂🎂
+Party party yeah🎉🎉🎉
+Broooo
+Jyada nhi aata mereko bolna 
+Par you know iiiii loveee youuu🤌🤌
+And really like really admire the person you are ( you are alasi though) 
+I don't really like people that much ,never had been around someone who truly cared but youuuuuu I know is sent by kahna jii🫶🫶
+Kya hota mera tumhare binaaaaa ahhh(cringe) 😵‍💫😵‍💫
+Whatever love you😘😘😘
+                </p>
+
+                <p>
+                    Thank you for all the laughs, the random
+                    conversations, the stupid jokes, the memories,
+                    and all the moments that somehow became
+                    my favourite ones.
+                </p>
+                <p>
+                    Never forget how loved you are.
+                    And please never stop being the wonderfully
+                    chaotic person you are.
+                </p>
+
+                <p class="letter-ending">
+                    Happy 20th, beautiful. ♡
+                </p>
+
+                <!-- CHANGE THIS: Your name -->
+                <p class="signature">
+                    — khushii ;)
+                </p>
+
+            </div>
+
+
+            <button class="next-button" onclick="showPage(6)">
+                make a wish →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         PAGE 6 — BIRTHDAY CAKE
+         ========================================== -->
+
+    <section class="page" id="page6">
+
+        <div class="page-container cake-page">
+
+            <p class="eyebrow">chapter five</p>
+
+            <h2>
+                Make a wish ✨
+            </h2>
+
+            <p class="cake-subtitle">
+                Close your eyes. Make it a good one.
+            </p>
+
+
+            <!-- CAKE -->
+
+            <div class="cake-area">
+
+                <div class="cake">
+
+                    <!-- candles -->
+                    <div class="candles">
+
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="cake-top"></div>
+
+                    <div class="cake-body">
+
+                        <div class="cake-decoration"></div>
+                        <div class="cake-decoration"></div>
+                        <div class="cake-decoration"></div>
+
+                    </div>
+
+                    <div class="cake-plate"></div>
+
+                </div>
+
+            </div>
+
+
+            <button class="wish-button" onclick="blowCandles()">
+                ✨ blow out the candles ✨
+            </button>
+
+
+            <div id="wishMessage" class="wish-message">
+
+                <h3>Happy 20th ♡</h3>
+
+                <p>
+                    May this year be your prettiest chapter yet.
+                </p>
+
+            </div>
+
+
+            <button class="next-button" onclick="showPage(7)">
+                one last thing →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         PAGE 7 — FINAL PAGE
+         ========================================== -->
+
+    <section class="page" id="page7">
+
+        <div class="final-background"
+             style="background-image: url('images/main.jpg');">
+        </div>
+
+        <div class="final-overlay"></div>
+
+
+        <div class="final-content">
+
+            <p class="eyebrow">
+                and finally...
+            </p>
+
+            <div class="final-number">
+                20
+            </div>
+
+            <!-- CHANGE THIS: Friend's name -->
+            <h2>
+                Happy Birthday,<br>
+                rashi ♡
+            </h2>
+
+            <p class="final-message">
+                Here's to twenty years of you,
+                and a lifetime of beautiful things
+                still waiting to happen.
+            </p>
+
+            <div class="sparkle-line">
+                ✦　♡　✦
+            </div>
+
+            <button class="main-button" onclick="showPage(1)">
+                replay our little story ↻
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         OPTIONAL MUSIC
+         ==========================================
+
+         CHANGE THIS:
+         Put your music file inside the folder:
+
+         music/birthday.mp3
+
+         Then uncomment the audio element below.
+
+    <audio id="birthdayMusic" loop>
+        <source src="music/birthday.mp3" type="audio/mpeg">
+    </audio>
+
+    -->
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
